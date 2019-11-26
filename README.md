@@ -22,7 +22,7 @@ hash -r
 wget https://raw.githubusercontent.com/sp4rkie/debian-on-termux/master/debian_on_termux.sh
 sh debian_on_termux.sh
 ```
-<br /><br />8. If all went well then create your shortcut bash script
+<br />8. If all went well then create your shortcut bash script
 `cd  ../usr/bin && nano sd`
 ```
 #!/data/data/com.termux/files/usr/bin/sh

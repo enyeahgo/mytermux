@@ -32,4 +32,6 @@ Save and `chmod +x sd`
 <br /><br />9. `sd` then `unset LD_PRELOAD && apt-get update && apt-get upgrade`
 <br />10. `apt-get install nodejs`
 <br />11. `apt-get install npm`
-<br />12. `apt-get install create-react-app`
+<br />12. `apt-get install git`
+<br />13. `npm install -g create-react-app`
+<br />14. `npm install -g firebase-tools`

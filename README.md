@@ -1,8 +1,8 @@
 # mytermux
-1. Install Termux from Playstore then open it up.
+1. Install Termux from Playstore then open it up and wait for its internal installation.
 2. `touch .hushlogin`
 3. `apt update && apt upgrade`
-4. `apt install nodejs git nano wget`
+4. `pkg install nodejs git nano wget`
 5. `cd ../usr/bin && nano c`
 ```
 #!/data/data/com.termux/files/usr/bin/sh

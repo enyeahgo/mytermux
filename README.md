@@ -9,27 +9,27 @@
 clear
 ```
 Save and `chmod +x c`
-<br />6. `nano ftpd`
+<br /><br />6. `nano ftpd`
 ```
 #!/data/data/com.termux/files/usr/bin/sh
 tcpsvd -vE 0.0.0.0 1024 ftpd -w /
 ```
 Save and `chmod +x ftpd`
-<br />7. If you want to install debian
+<br /><br />7. If you want to install debian
 ```
 cd ~
 hash -r
 wget https://raw.githubusercontent.com/sp4rkie/debian-on-termux/master/debian_on_termux.sh
 sh debian_on_termux.sh
 ```
-<br />8. If all went well then create your shortcut bash script
+<br /><br />8. If all went well then create your shortcut bash script
 `cd  ../usr/bin && nano sd`
 ```
 #!/data/data/com.termux/files/usr/bin/sh
 $HOME/bin/enter_deb
 ```
 Save and `chmod +x sd`
-<br />9. `sd` then `unset LD_PRELOAD && apt-get update && apt-get upgrade`
+<br /><br />9. `sd` then `unset LD_PRELOAD && apt-get update && apt-get upgrade`
 <br />10. `apt-get install nodejs`
 <br />11. `apt-get install npm`
 <br />12. `apt-get install create-react-app`

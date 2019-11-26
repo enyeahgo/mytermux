@@ -1,5 +1,5 @@
 # mytermux
-1. Install Termux from Playstore.
+1. Install Termux from Playstore then open it up.
 2. `touch .hushlogin`
 3. `apt update && apt upgrade`
 4. `apt install nodejs git nano wget`
